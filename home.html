@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="/index.html" id="header-brand"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+            <div id="sort-control" style="display: flex;">
+                <li class="nav-item">
+                  <a class="nav-link" href="#" id="sort-asc">Sort &uarr; <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" id="sort-desc">Sort &darr; <span class="sr-only">(current)</span></a>
+                </li>
+            </div>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Colors
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown" id="color-filter">
+                    <a class="dropdown-item" href="#" id="W-filter">White</a>
+                    <a class="dropdown-item" href="#" id="B-filter">Black</a>
+                    <a class="dropdown-item" href="#" id="G-filter">Green</a>
+                    <a class="dropdown-item" href="#" id="U-filter">Blue</a>
+                    <a class="dropdown-item" href="#" id="R-filter">Red</a>
+                    <a class="dropdown-item" href="#" id="C-filter">Colorless</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Type
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown" id="type-filter">
+
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" id="clear-filter">Clear Filter <span class="sr-only">(current)</span></a>
+                  </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="search-input">
+              </form>
+            </div>
+          </nav>
+    </header>
+
+    <!-- body -->
+    <main>
+        <div class="card-list"></div>
+    <!-- loading indicator -->
+    </main>
+    <!-- card colection left -->
+    <aside>
+    <!-- preview card big right -->
+    <!-- card text atributes right down -->
+    </aside>
+
+<!--
+    1. auth
+    2. povrzuvanje htmls
+    3. filter
+    4. hello name
+    5. big card modal
+-->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="scripts.js"></script>
+<script src="home.js"></script>
+</body>
+</html>

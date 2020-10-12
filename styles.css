@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'magicmedievalregular';
+    src: url('/media/fonts/magicmedieval-prv1-webfont.woff2') format('woff2'),
+         url('/media/fonts/magicmedieval-prv1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body {
+   background-color: #2d3436 !important; 
+   font-family: 'magicmedievalregular', Arial, Helvetica, sans-serif !important;
+    
+}
+
+
+#logomag {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.loginform {
+    font-weight:normal;
+    font-style:normal;
+    font-size: 18px;
+    display: block;
+    border: 8px solid;
+    border-color: #00733d #0e67ab #d3202a #f9faf4;
+    border-radius: 12px;
+    margin-left: auto; 
+    margin-right: auto;
+    width:20%;
+    background: rgb(115,115,115);
+    background: linear-gradient(137deg, rgba(115,115,115,1) 0%, rgba(0,0,0,1) 62%);
+    color: honeydew;
+    padding: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block; 
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 220px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+   
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+button {
+    font-weight:normal;
+    font-style:normal;
+    font-size: 18px;
+}
+
+button {
+    transition-duration: 0.3s;
+  }
+  
+  .button:hover {
+    background-color: gray;
+    color: white;
+  }
+
+  .headerhome {
+    font-weight:normal;
+    font-style:normal;
+    font-size: 25px;
+    color: whitesmoke;
+  }
+
+
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 150px;
+    height: 277px;
+    margin: 16px;
+    background-color: #dfe6e9;
+    border-radius: 16px;
+  }
+
+  .card-img {
+      width: 100%;
+  }
+
+  .card-name {
+    padding: 2px 8px;
+  }
+
+  .card-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+  }
+
+
+  .nav-bar {
+    background-color: green;
+    position: relative;
+    margin: 0%;
+    display: flex;
+  }
