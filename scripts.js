@@ -1,8 +1,8 @@
-let myName = "";
+
 
 const getName = () => {
-    myName = document.querySelector("#nameInput").value;
-    document.querySelector("#header-brand").innerText = `Hello, Plainswalker ${myName}`
+    const myName = document.querySelector("#nameInput").value;
+    localStorage.setItem("username", myName);
 }
 
 const submitBtn = document.querySelector("#subBtn");

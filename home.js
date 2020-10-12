@@ -2,7 +2,10 @@ const cardsEndpoint = "https://api.magicthegathering.io/v1/cards"
 const typeEndpoint = "https://api.magicthegathering.io/v1/types"
 let fetchedCards;
 
-//
+(() => {
+    const userName = localStorage.getItem("username");
+      document.querySelector("#header-brand").innerText = `Hello, Planeswalker ${userName}`;
+})()
 
 const getTypesDropDown = async () => {
     let typesHtml = "";
